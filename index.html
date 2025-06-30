@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Scholaro</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="logo">Scholaro</div>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+    <div class="nav-links" id="navLinks">
+      <a href="#">Home</a>
+      <a href="#">Colleges</a>
+      <a href="#">Test Prep</a>
+      <a href="#">About</a>
+      <a href="#">Help</a>
+    </div>
+    <div class="nav-buttons">
+      <button class="btn btn-login">Login</button>
+      <button class="btn btn-register">Register</button>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <h1>Welcome to Scholaro</h1>
+    <p>Your comprehensive platform for GRE, GMAT, IELTS, TOEFL, Duolingo preparation and global university admissions</p>
+    <button class="hero-btn" onclick="startPreparing()">Start Preparing</button>
+  </section>
+
+  <section class="features">
+    <div class="feature-box">
+      <h3>Test Preparation</h3>
+      <p>Comprehensive prep for GRE, GMAT, IELTS, TOEFL, and Duolingo with mock tests and detailed analytics</p>
+    </div>
+    <div class="feature-box">
+      <h3>Global Universities</h3>
+      <p>Access information about Ivy League schools and universities worldwide with fee structures and scholarships</p>
+    </div>
+    <div class="feature-box">
+      <h3>Personalized Learning</h3>
+      <p>Track your progress, store results, and get personalized recommendations for improvement</p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
